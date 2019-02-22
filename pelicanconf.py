@@ -7,10 +7,11 @@ SITENAME = "pysplash.io"
 SITEURL = ""
 
 PATH = "content"
-THEME = "themes/modtheme"
 TIMEZONE = "America/Los_Angeles"
 
 DEFAULT_LANG = "en"
+
+THEME = "theme"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -19,8 +20,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (
+PROJECTS = (
     ("Python.org", "http://python.org/"),
     ("Jupyter", "http://jupyter.org/"),
     ("nteract", "http://nteract.io/"),
@@ -34,8 +34,5 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
-
-# static paths will be copied without parsing their contents
-STATIC_PATHS = ["content/images"]
 
 SITESUBTITLE = "Learn. Build. Share."
