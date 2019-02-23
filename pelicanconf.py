@@ -20,13 +20,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-PROJECTS = (
-    ("Python.org", "http://python.org/"),
-    ("Jupyter", "http://jupyter.org/"),
-    ("nteract", "http://nteract.io/"),
-    ("You can modify those links in your config file", "#"),
-)
-
 # Social widget
 SOCIAL = (("You can add links in your config file", "#"), ("Another social link", "#"))
 
@@ -36,3 +29,24 @@ DEFAULT_PAGINATION = False
 # RELATIVE_URLS = True
 
 SITESUBTITLE = "Learn. Build. Share."
+
+PROJECTS = [
+    {
+        "name": "Logpad + Duration",
+        "url": "https://github.com/talha131/logpad-plus-duration#logpad--duration",
+        "description": "Vim plugin to emulate Windows Notepad logging feature,"
+        " and log duration of each entry",
+    },
+    {
+        "name": "Elegant Theme for Pelican",
+        "url": "http://oncrashreboot.com/pelican-elegant",
+        "description": "A clean and distraction free theme, with search and a"
+        " lot more unique features, using Jinja2 and Bootstrap",
+    },
+]
+
+LANDING_PAGE_ABOUT = {
+    "title": "I create tools for learning, building, and sharing.",
+    "details": "A dashboard of helpful resources",
+}
+
